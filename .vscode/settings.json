@@ -1,0 +1,12 @@
+{
+  "C_Cpp.default.compilerPath": "cl.exe",
+  "files.associations": {
+    "ostream": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "xstring": "cpp",
+    "mutex": "cpp",
+    "string": "cpp",
+    "thread": "cpp"
+  }
+}
