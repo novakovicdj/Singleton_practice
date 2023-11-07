@@ -7,6 +7,8 @@
 #include <string>
 #include <vector>
 
+#include "my_logger.h"
+
 using namespace std;
 
 class MySingleton {
@@ -17,6 +19,7 @@ class MySingleton {
   // history of thread ids at each index
   map<int, vector<thread::id>> thread_ids;
   static mutex mtx;
+  static MyLogger my_logg;
 
  public:
   // prevent copying of singleton
