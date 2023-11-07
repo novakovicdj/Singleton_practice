@@ -1,0 +1,1 @@
+This is simple program used to practice singleton design pattern.
